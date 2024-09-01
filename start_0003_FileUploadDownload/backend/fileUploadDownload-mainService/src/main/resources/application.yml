@@ -1,0 +1,14 @@
+spring:
+ servlet:
+  multipart:
+   enabled: true
+   max-request-size: 30MB
+   max-file-size: 10MB
+
+server:
+ port: 8080
+ 
+start:
+ mnsc:
+  file-service:
+   url: http://localhost:8081
