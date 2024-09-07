@@ -16,9 +16,4 @@ export const theme = createTheme({
       main: "#FEF3E2",
     },
   },
-  // typography: {
-  //   button: {
-  //     textTransform: "none",
-  //   },
-  // },
 });
